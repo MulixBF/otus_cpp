@@ -8,6 +8,7 @@
   "files": [
     {
       "includePattern": "build/helloworld",
+      "uploadPattern": "/helloworld",
       "listInDownloads": true
     }
   ],
