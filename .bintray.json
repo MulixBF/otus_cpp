@@ -2,6 +2,9 @@
   "package": {
     "name": "helloworld"
   },
+  "version": {
+      "name": "1.0"
+  },
   "files": [
     {
       "includePattern": "build/helloworld",
