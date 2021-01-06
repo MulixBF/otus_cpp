@@ -1,6 +1,10 @@
 {
   "package": {
-    "name": "helloworld"
+    "name": "helloworld",
+    "repo": "otus_cpp",
+    "subject": "subject",
+    "vcs_url": "-",
+    "licenses": "MIT"
   },
   "version": {
       "name": "1.0"
