@@ -1,0 +1,12 @@
+{
+  "package": {
+    "name": "helloworld",
+  },
+  "files": [
+    {
+      "includePattern": "build/helloworld",
+      "listInDownloads": true
+    }
+  ],
+  "publish": true
+}

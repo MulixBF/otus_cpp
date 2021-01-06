@@ -14,18 +14,18 @@ addons:
 
 before_script:
   - mkdir build
-  - mkdir deploy
   - cd build
   - cmake .. -DBUILD_NUMBER=${TRAVIS_BUILD_NUMBER}
 
 script:
   - make
+  - cd ..
 
-deploy:
+deploy: 
   provider: bintray
   user: mulixbf
   key: $BINTRAY_APIKEY
-  file: build/helloworld
+  file: .bintray.json
   skip_cleanup: true
   on:
     branch: homework_1
