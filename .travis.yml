@@ -19,3 +19,9 @@ before_script:
 
 script:
   - make
+
+deploy:
+  provider: bintray
+  user: mulixbf
+  key: $BINTRAY_APIKEY
+  file: ./helloworld
