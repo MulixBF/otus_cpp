@@ -24,4 +24,7 @@ deploy:
   provider: bintray
   user: mulixbf
   key: $BINTRAY_APIKEY
-  file: ./helloworld
+  file: build/helloworld
+  on:
+    branch: homework_1
+    
