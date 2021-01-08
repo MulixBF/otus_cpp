@@ -1,0 +1,24 @@
+{
+  "package": {
+    "name": "ip_filter",
+    "repo": "otus_cpp",
+    "subject": "mulixbf",
+    "vcs_url": "-",
+    "licenses": "MIT"
+  },
+  "version": {
+      "name": "1.0"
+  },
+  "files": [
+    {
+      "includePattern": "build/ip_filter",
+      "uploadPattern": "/ip_filter",
+      "listInDownloads": true
+    }, {
+      "includePattern": "ip_filter.tsv",
+      "uploadPattern": "/ip_filter.tsv",
+      "listInDownloads": true
+    }
+  ],
+  "publish": true
+}
