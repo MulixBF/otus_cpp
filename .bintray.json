@@ -1,0 +1,20 @@
+{
+  "package": {
+    "name": "",
+    "repo": "otus_cpp",
+    "subject": "mulixbf",
+    "vcs_url": "-",
+    "licenses": "MIT"
+  },
+  "version": {
+      "name": "1.0"
+  },
+  "files": [
+    {
+      "includePattern": "",
+      "uploadPattern": "",
+      "listInDownloads": true
+    }
+  ],
+  "publish": true
+}
