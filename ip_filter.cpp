@@ -1,5 +1,6 @@
 #include <cassert>
 #include <cstdlib>
+#include <algorithm>
 #include <iostream>
 #include <string>
 #include <vector>
