@@ -6,10 +6,19 @@
 	objectVersion = 50;
 	objects = {
 
+/* Begin PBXFileReference section */
+		866E437525A873C900A6E5DA /* CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = "<group>"; };
+		866E437625A873C900A6E5DA /* ip_filter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ip_filter.cpp; sourceTree = "<group>"; };
+		866E437725A873C900A6E5DA /* ip_filter.tsv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ip_filter.tsv; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
 /* Begin PBXGroup section */
 		866E435025A1E5AD00A6E5DA = {
 			isa = PBXGroup;
 			children = (
+				866E437525A873C900A6E5DA /* CMakeLists.txt */,
+				866E437625A873C900A6E5DA /* ip_filter.cpp */,
+				866E437725A873C900A6E5DA /* ip_filter.tsv */,
 			);
 			sourceTree = "<group>";
 		};
